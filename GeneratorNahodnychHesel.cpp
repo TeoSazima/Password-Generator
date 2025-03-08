@@ -18,7 +18,7 @@ int main()
     char jednotkaHesla = '0';
     int nahodneCislo = 0;
     char heslo[30] = {};
-    int indexHesla = 1;
+    int indexHesla = 0;
 
 
     srand(time(NULL));
@@ -28,7 +28,7 @@ int main()
 
     while (HDelkaPass == false) {
 
-        cout << "Nini si zvolte delku hesla.\n";
+        cout << "Nyni si zvolte delku hesla.\n";
         cin >> delkaHesla;
         std::cin.clear();
         std::cin.ignore();
@@ -47,7 +47,7 @@ int main()
         
     while (HTypPass == false) {
 
-        cout << "Nini si zvolte typ generace hesla.\n\n";
+        cout << "Nyni si zvolte typ generace hesla.\n\n";
         
         cout << "1. Pouze cisla\n";
         cout << "2. Cisla i mala pismena\n";
@@ -90,7 +90,7 @@ int main()
 
         }
 
-        indexHesla = 1;
+        indexHesla = 0;
 
         cout << "Helso bylo uspesne vygenerovano.\n";
 
@@ -133,9 +133,9 @@ int main()
 
         }
 
-        indexHesla = 1;
+        indexHesla = 0;
 
-        cout << "Helso bylo uspesne vygenerovano.\n";
+        cout << "Heslo bylo uspesne vygenerovano.\n";
 
         for (int i = 0; i < delkaHesla; i++)
         {
@@ -189,9 +189,9 @@ int main()
 
         }
 
-        indexHesla = 1;
+        indexHesla = 0;
 
-        cout << "Helso bylo uspesne vygenerovano.\n";
+        cout << "Heslo bylo uspesne vygenerovano.\n";
 
         for (int i = 0; i < delkaHesla; i++)
         {
@@ -213,7 +213,7 @@ int main()
 
         }
 
-        indexHesla = 1;
+        indexHesla = 0;
 
         cout << "Helso bylo uspesne vygenerovano.\n";
 
